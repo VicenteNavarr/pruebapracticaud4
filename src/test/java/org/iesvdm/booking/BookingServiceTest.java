@@ -65,6 +65,15 @@ public class BookingServiceTest {
     @Test
     void getAvailablePlaceCountTest() {
 
+
+        roomService.getAvailableRooms();
+        when(roomService.getAvailableRooms()).thenReturn(new ArrayList<>(3));
+
+
+
+
+
+
     }
 
     /**
@@ -75,6 +84,10 @@ public class BookingServiceTest {
      */
      @Test
     void calculatePriceTest() {
+
+
+
+
 
      }
 
